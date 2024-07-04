@@ -15,7 +15,6 @@ public:
 
     Song()=default;
 
-    //Song(const std::string _title ,const std::string _artist,const std::vector<std::string> _lyrics = {""});
 
     Song(const std::string _title ,const std::string _artist,const int _year,
                                          const std::string _url = "",const std::vector<std::string> _lyrics = {""});
