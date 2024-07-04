@@ -1,12 +1,4 @@
 #include "Song.h"
-/*
-Song::Song(const std::string _title,const std::string _artist,const std::vector<std::string> _lyrics)
-{
-    title = _title;
-    artist = _artist;
-    lyrics = _lyrics;
-}*/
-
 
 Song::Song(const std::string _title,const std::string _artist,const int _year,
                                          const std::string _url, const std::vector<std::string> _lyrics)
